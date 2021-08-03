@@ -10,6 +10,12 @@ package com.mycompany.mavenproject1;
  * @author pc-asus
  */
 public class Classe  {
+
+     class book {
+
+        public book() {
+        }
+    }
      
     class Book { 
      // Book properties
@@ -21,4 +27,4 @@ public class Classe  {
         
         String publisher;
     }           
-                           } 
+                  Book mybook = new("Sword of Destiny","Andrzej Sapkowski",  384);    } 
