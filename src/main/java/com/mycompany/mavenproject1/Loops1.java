@@ -12,11 +12,11 @@ package com.mycompany.mavenproject1;
 public class Loops1 {
 
     public static void main(String[] args) {
-        for (int time = 0; time < 6; time++) {
-            System.out.println("On en a gros! " + time);
-        } 
-        while (true) {            
-            System.out.println("ZUUUUT");
+        
+        for (int time = 0; time < 101; time++){
+             System.out.println("01010011.01001111.01010011.1986-019B.");
+}
+        
         }
     }
-}
+
