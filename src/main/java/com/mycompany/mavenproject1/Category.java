@@ -44,27 +44,6 @@ public static int countBooks(Categories categories) {
 		int numberOfBooks = countBooks(BookStore.categories);
 		System.out.println("The bookstore has " + numberOfBooks + " books");
 	}
+} 
+= 
 
-
-}
----------------
-import java.util.ArrayList;
-
-class Categories extends ArrayList<Category> {
-
-    public void add(Category c3) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-}
-
----------------
-public class Category {
-
-	public int numberOfBooks;
-	
-	public Categories subCategories = new Categories();
-	
-}
-
-}
