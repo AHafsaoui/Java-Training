@@ -16,5 +16,14 @@ public class Laucher {
 }
   public static main(string arg[]){
       
+      InterfaceFonctionel1 add = (int x, int y)->x+y;
+      
+      InterfaceFonctionel1 multiply = (int x, int y)->x*y;
+      
+      int resultAdd = operate(2,8 add);
+      
+        int resultMultiply = operate(2,8 multiply);
+        
+        System.out.println();
   }
 }
