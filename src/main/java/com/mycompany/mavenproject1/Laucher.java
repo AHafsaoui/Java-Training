@@ -24,6 +24,10 @@ public class Laucher {
       
         int resultMultiply = operate(2,8 multiply);
         
-        System.out.println();
-  }
+        System.out.println("resultat de addition = " + resultAdd);
+        
+        System.out.println("resultat de multiplication = " + resultMultiply);
+        InterfaceFonctionel2 fog = (string message) -> {System.out.println("Hello" + message);};
+        fog.SayMessage("Good Game");
+  }    
 }
