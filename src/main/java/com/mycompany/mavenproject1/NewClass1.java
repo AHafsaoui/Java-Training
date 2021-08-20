@@ -9,14 +9,6 @@ package com.mycompany.mavenproject1;
  *
  * @author pc-asus
  */
-public class NewClass {
-
-    public static void main(String[] args) {
-        System.out.print("Hello world ! ");
-            System.out.print("My name is ");
-            System.out.print("John Doe");
-    }
-
-    }
-
-
+public class NewClass1 {
+    public static void (String[] args){
+            
