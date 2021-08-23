@@ -9,10 +9,9 @@ package com.mycompany.mavenproject1;
  *
  * @author pc-asus
  */
-public class Test {
-    public static void main(String[] args) {
-        FigureGeo figure = new FigureGeo();
-        figure.moveTo(1, 1);
-        Carre carre = new Carre();
-    }   
-  }
+public interface InterfaceFonctionel_2 {
+    void SayMessage(sting message);
+
+    public void SayMessage(String good_Game);
+    
+}

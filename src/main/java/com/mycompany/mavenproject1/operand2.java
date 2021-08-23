@@ -9,7 +9,6 @@ package com.mycompany.mavenproject1;
  *
  * @author pc-asus
  */
-public interface InterfaceFonctionel2 {
-    void SayMessage(sting message);
+class operand2 {
     
 }

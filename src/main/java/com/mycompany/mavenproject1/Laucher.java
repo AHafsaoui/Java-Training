@@ -11,14 +11,15 @@ package com.mycompany.mavenproject1;
  */
 public class Laucher {
     
-  static int  operate(int operand11, operand22, InterfaceFonctionel1 myInterface ) {
+  static int  operate(int operand11, operand22, InterfaceFonctionel_1 myInterface ) {
+      operand2 operand22;
     return myInterface.operation(operand11, operand22);
 }
-  public static main(string arg[]){
+  public static Laucher(string arg[]){
       
-      InterfaceFonctionel1 add = (int x, int y)->x+y;
+      InterfaceFonctionel_1 add = (int x, int y)->x+y;
       
-      InterfaceFonctionel1 multiply = (int x, int y)->x*y;
+      InterfaceFonctionel_1 multiply = (int x, int y)->x*y;
       
       int resultAdd = operate(2,8 add);
       
@@ -27,7 +28,23 @@ public class Laucher {
         System.out.println("resultat de addition = " + resultAdd);
         
         System.out.println("resultat de multiplication = " + resultMultiply);
-        InterfaceFonctionel2 fog = (string message) -> {System.out.println("Hello" + message);};
+        InterfaceFonctionel_2 fog = (string message) -> {System.out.println("Hello" + message);};
         fog.SayMessage("Good Game");
   }    
+
+    private static int operate(int i, int i0) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    private static class operand22 {
+
+        public operand22() {
+        }
+    }
+
+    private static class string {
+
+        public string() {
+        }
+    }
 }

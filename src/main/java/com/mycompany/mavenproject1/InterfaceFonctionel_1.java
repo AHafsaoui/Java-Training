@@ -9,6 +9,6 @@ package com.mycompany.mavenproject1;
  *
  * @author pc-asus
  */
-public interface InterfaceFonctionel1 {
+public interface InterfaceFonctionel_1 {
     int operation(int operand1, operand2);
 }
