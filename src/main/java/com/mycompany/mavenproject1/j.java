@@ -9,9 +9,6 @@ package com.mycompany.mavenproject1;
  *
  * @author pc-asus
  */
-public class NewClass3 {
-    int i = 12;
-    String j = new String ();
-    j = j.ValueOf(i);
+class j {
     
 }
