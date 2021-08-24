@@ -9,12 +9,7 @@ package com.mycompany.mavenproject1;
  *
  * @author pc-asus
  */
-public class Loops {
-   
- 
-    }
-
- 
-for (int V = 0; V < 101;V++){
-System.out.printIn("01010011 01001111 01010011")
+public class NewClass3 {
+    
+    
 }

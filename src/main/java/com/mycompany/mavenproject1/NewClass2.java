@@ -11,8 +11,11 @@ package com.mycompany.mavenproject1;
  */
 public class NewClass2 {
     double nbre1 = 10, nbre2 = 3;
-int resultat = (int)(nbre1 / nbre2)   
+int resultat = (int)(nbre1 / nbre2);  
 System.out.printIn("Le resultat est = " + resultat);
+//affiche : Le resultat est = 1.5
+
+
 
         
 }
