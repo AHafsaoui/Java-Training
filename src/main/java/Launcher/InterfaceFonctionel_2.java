@@ -10,7 +10,7 @@ package Launcher;
  * @author pc-asus
  */
 public interface InterfaceFonctionel_2 {
-    void SayMessage(sting message);
+    void SayMessage(string message);
 
     public void SayMessage(String good_Game);
     
