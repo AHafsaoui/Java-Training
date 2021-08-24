@@ -9,6 +9,8 @@ package com.mycompany.mavenproject1;
  *
  * @author pc-asus
  */
-public class NewClass1 {
+public class NewClass_1 {
     public static void (String[] args){
+        
+    }
             
