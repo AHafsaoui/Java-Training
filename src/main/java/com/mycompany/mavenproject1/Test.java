@@ -10,5 +10,12 @@ package com.mycompany.mavenproject1;
  * @author pc-asus
  */
 public class Test {
+    public static void main(String [] args){
+        GeoFigure figure = new GeoFigure();
+        figure.moveTo(1, 1);
+        Carre Carre = new Carre();
+        Carre move.To(2.2);
+        
+    }
     
 }
