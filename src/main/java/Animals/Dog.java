@@ -9,11 +9,14 @@ package Animals;
  *
  * @author pc-asus
  */
-class Chien extends Animals {
+class Dog extends Animals {
+
+   
+     
     
-    /**
-     *
-     */
+
+
+     
      @Override
      void deplacer(){
         

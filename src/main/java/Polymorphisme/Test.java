@@ -5,9 +5,6 @@
  */
 package Polymorphisme;
 
-import Polymorphisme.Carre;
-import Polymorphisme.GeoFigure;
-
 /**
  *
  * @author pc-asus
