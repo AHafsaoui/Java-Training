@@ -3,7 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.mavenproject1;
+package Polymorphisme;
+
+import Polymorphisme.Carre;
+import Polymorphisme.GeoFigure;
 
 /**
  *
@@ -14,7 +17,7 @@ public class Test {
         GeoFigure figure = new GeoFigure();
         figure.moveTo(1, 1);
         Carre Carre = new Carre();
-        Carre move.To(2.2);
+        Carre moveTo(2.2);
         
     }
     

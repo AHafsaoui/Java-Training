@@ -16,5 +16,5 @@ public class Loops {
 
  
 for (int V = 0; V < 101;V++){
-System.out.println("01010011 01001111 01010011")
+System.out.println("01010011 01001111 01010011");
 }
