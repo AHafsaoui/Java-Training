@@ -6,7 +6,7 @@
 package Date.time;
 
 import java.time.LocalDate;
-import java.time.Month;
+import java.time.LocalDateTime;
 
 /**
  *
@@ -16,10 +16,12 @@ public class Test_1 {
     
     public static void main(String[] args) {
         LocalDate date = LocalDate.of(2021, 8, 31);
+        LocalDateTime dt = date.atTime(15, 47, 00);
         System.out.println(date.plusYears(6));
-        
+        System.out.println(dt);
         
        
+        
         
     }
 }
