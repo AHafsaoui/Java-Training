@@ -13,21 +13,21 @@ import java.time.temporal.ChronoUnit;
  *
  * @author pc-asus
  */
-public class Datetest_01 {
-    public static void main (String[] args) {
+public class Datetest_01_years {
+    
+     public static void main (String[] args) {
         DateTimeFormatter Formatter = DateTimeFormatter.ofPattern("dd/MM/uuuu");
         
         String firstDate = "31/08/2021";
-        String secondDate = "01/10/2021";
+        String secondDate = "01/10/2023";
         
         LocalDate date1 = LocalDate.parse(firstDate, Formatter);
          LocalDate date2 = LocalDate.parse(secondDate, Formatter);
          
-         long daysBetween = ChronoUnit.DAYS.between(date1,date2);
+         long yearsBetween = ChronoUnit.YEARS.between(date1,date2);
          
-         System.out.println(daysBetween);
+         System.out.println(yearsBetween);
                 
-    }
-    
     
 }
+ }
