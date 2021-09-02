@@ -10,6 +10,7 @@ package com.mycompany.mavenproject1;
  * @author pc-asus
  */
 public class NewClass2 {
+    public void main(String[] args){
     double nbre1 = 10, nbre2 = 3;
 int resultat = (int)(nbre1 / nbre2);  
 System.out.println("Le resultat est = " + resultat);
@@ -19,3 +20,4 @@ System.out.println("Le resultat est = " + resultat);
 
         
 }
+} 

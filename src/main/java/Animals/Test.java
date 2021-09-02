@@ -17,17 +17,17 @@ public class Test {
      */
     public static void main (System[] args) {
         
-    Animals a1 = new Animal();
+    Animals a1 = new Animals();
                 
     Animals a2 = new Dog();
     
     Animals a3 = new Pigeon();
     
-    a1 deplacer();
+    a1.deplacer();
     
-    a2 deplacer();
+    a2.deplacer();
     
-    a3 deplacer();
+    a3.deplacer();
     
      
      
